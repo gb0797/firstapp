@@ -7,7 +7,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String sayHelloGet(){
-        return "Hello World From Get";
+        return "Hello World From Get updated";
     }
 
     @PutMapping("/")
